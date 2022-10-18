@@ -21,7 +21,7 @@ int id;
 
 int main()
 {
-    int num,x=0;
+    int num;
 
 
     cout<<"inserir (1), remover (2), pesquisar (3), imprimir (4), ordenar(5)\n";
