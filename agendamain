@@ -3,6 +3,21 @@
 #include "agenda.h"
 using namespace std;
 
+template <typename TIPO, int MAX>
+struct contatopessoal{
+std::string nome;
+long long int cpf;
+long int celular;
+int id;
+};
+
+template <typename TIPO, int MAX>
+struct contatocomercial{
+std::string nomeempresa;
+long long int cnpj;
+long int telefone;
+int id;
+};
 
 int main()
 {
