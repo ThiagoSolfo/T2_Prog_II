@@ -1,1 +1,36 @@
 
+#include <iostream>
+#include "agenda.h"
+using namespace std;
+
+
+int main()
+{
+    int num,x=0;
+
+
+    cout<<"inserir (1), remover (2), pesquisar (3), imprimir (4), ordenar(5)\n";
+    cin>>num;
+    switch(num){
+    case 0:
+    //Inicializar ();
+    break;
+    case 1:
+    //Inserir ();
+    break;
+    case 2:
+    //Remover();
+    break;
+    case 3:
+    //Pesquisar ();
+    break;
+    case 4:
+    //Imprimir ();
+    break;
+    case 5:
+    //Ordenar ()
+    default:
+    return 0;
+    }
+    return 0;
+}
